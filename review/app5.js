@@ -1,11 +1,11 @@
 // オプションを指定してSkipprの実行
 $(".theTarget").skippr({
   // スライドショーの変化（"fade" or "slide"）
-  transition : 'fade',
+  transition : 'slide',
   // 変化にかかる時間（ミリ秒）
-  speed : 1000,
+  speed : 2000,
   // easingの種類
-  easing : 'easeOutQuart',
+  easing : 'easeQutQuart',
   // ナビゲーションの形（"block" or "bubble"）
   navType : 'block',
   // 子要素の種類（"div" or "img"）
@@ -13,7 +13,7 @@ $(".theTarget").skippr({
   // ナビゲーション矢印の表示（trueで表示）
   arrows : true,
   // スライドショーの自動再生（falseで自動再生なし）
-  autoPlay : false,
+  autoPlay : true,
   // 自動再生時のスライド切替間隔（ミリ秒）
   autoPlayDuration : 5000,
   // キーボードの矢印キーによるスライド送りの設定（trueで有効）
